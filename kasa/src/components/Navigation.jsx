@@ -12,8 +12,8 @@ export default function Navigation() {
         <header className={style.pos_header}>
             <img src={logo} className={style.App_logo} alt="logo" />
             <nav className={style.ks_navbar}>
-            <NavLink  to="/" > Accueil </NavLink>
-            <NavLink to="/apropos" > A Propos </NavLink>
+            <NavLink  to="/kasa" > Accueil </NavLink>
+            <NavLink to="/kasa/apropos" > A Propos </NavLink>
             </nav>
         </header>
     )
