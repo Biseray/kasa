@@ -1,0 +1,179 @@
+.posCarousel{
+
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    border-radius: 1em;
+    z-index: 1;
+    
+
+
+}
+
+
+.img{
+    display: none;
+    transform: scale(-50% -50%);
+    transition: all 1s ease;
+}
+.img.active{
+    transform: scale(-50% -50%);
+    display: block;
+    transition: all 1s ease;
+}
+
+.containerCarousel {
+
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+
+
+.ImgCarousel {
+    display: flex;
+   flex-direction: column-reverse;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+
+
+
+.posFleche {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fleche {
+    cursor: pointer;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 4em;
+    color: rgba(255, 0, 0, 0.781);
+
+
+}
+
+
+.containerDot{
+    z-index: 44;
+}
+
+.posFleche.active{
+    display: none;
+}
+
+.numberSlide {
+    z-index: 3;
+    font-size: 1.2em;
+    color: var(--primaire-color);
+    margin: 0em 1em 1em 1em;
+}
+
+.dotPos {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    gap: 5px;
+
+}
+
+.dot {
+    z-index: 44;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffffc0;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.678);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active.dotNot{   
+   display: none;
+}
+
+.dot.active {
+    z-index: 44;
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid var(--secondaire-color);
+}
+
+@media screen and (max-width: 991px) {
+    .numberSlide {
+        display: none;
+    }
+
+    .ImgCarousel {
+        justify-content: flex-end;
+        
+    }
+
+    .containerCarousel {
+
+
+        height: 400px;
+
+    }
+
+
+
+    .posCarousel {
+        height: 400px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .containerCarousel {
+        height: 250px;
+
+    }
+
+        .dotPos{
+            align-items: center;
+        }
+    .posCarousel {
+        height: 250px;
+
+    }
+
+
+
+    .dot {
+    
+        height: 5px;
+        width: 5px;
+        border: 1.5px solid rgba(0, 0, 0);
+    }
+
+    .dot.active {
+        height: 5px;
+        width: 5px;
+        border: 1.5px solid rgba(0, 0, 0);
+        background-color: var(--secondaire-color);
+    }
+}

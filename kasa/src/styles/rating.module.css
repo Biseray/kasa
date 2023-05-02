@@ -1,0 +1,18 @@
+.posRating{
+    display: flex;
+}
+.ratingStars{
+    display: flex;
+    
+}
+
+.ratingStars img{
+    width: 2em;
+}
+
+
+ @media screen and (max-width: 767px) { 
+    .ratingStars img {
+            width: 1.5em;
+        }
+ }

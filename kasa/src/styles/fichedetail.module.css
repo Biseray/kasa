@@ -1,0 +1,181 @@
+.posBoxI {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+
+.posDirection{
+ display: flex;
+ flex-direction: column;
+align-items: flex-end
+}
+.FicheDetail {
+    width: 100%;
+
+}
+
+.profilImg {
+    border-radius: 10em;
+    width: 5em;
+    height: auto;
+    margin-left: 0.5em;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    color: var(--secondaire-color);
+}
+
+.locationInfo {
+    text-align: left;
+    color: var(--secondaire-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.posInfoLocation {
+    display: flex;
+    margin: 1em 0em 0em 0em;
+    justify-content: space-between;
+}
+
+.posTag {
+    display: flex;
+    gap: 1em;
+}
+
+.name {
+   width: min-content;
+    margin: 2;
+    text-align: right;
+    font-size: 1.3em;
+
+}
+
+.city {
+    font-weight: 100;
+    font-size: 1em;
+    margin: 0.5em 0em 0em 0em;
+
+}
+
+.NameLocation {
+    margin: 0;
+    font-size: 2em;
+
+}
+
+.carrouselPicture {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+   
+}
+
+.imgc {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    border-radius: 1em;
+
+}
+
+
+
+.list {
+    text-align: left;
+    list-style: none;
+    margin: 0.5em;
+    padding: 0em;
+}
+
+
+
+.ulStyle {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0.8em;
+}
+
+@media screen and (max-width: 767px) {
+    .posBoxI {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0em;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+        .ulStyle {
+            font-weight: 100;
+    
+            list-style-type: none;
+            text-align: left;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+    .posInfoLocation {
+        flex-direction: column;
+    }
+
+    .posDirection {
+        margin: 0.5em 1em 0.5em 1em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profilImg {
+        border-radius: 10em;
+        width: 3em;
+        height: 100%;
+        margin-left: 0.5em;
+    }
+
+    .locationInfo {
+        margin: 0em 1em 1em 1em;
+    }
+
+    .NameLocation {
+
+        font-size: 1.6em;
+        font-weight: 100;
+
+    }
+
+    .name {
+        word-wrap: break-word;
+        margin: 2;
+        text-align: right;
+        font-size: 1.1em;
+        font-weight: 100;
+
+    }
+
+    .city {
+        margin: 0.5em 0em 0em 0em;
+        font-size: 1.1em;
+        font-weight: 100;
+
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .posBoxI {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+           
+        }
+}

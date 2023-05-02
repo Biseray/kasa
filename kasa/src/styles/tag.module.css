@@ -1,0 +1,26 @@
+.tag {
+   
+    margin: 0;
+    
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 10px;
+    color: var(--primaire-color);
+    background-color: var(--secondaire-color);
+}
+
+
+
+.containerTag{
+  display: flex ;
+  flex-wrap: wrap; 
+  gap: 1em;
+    margin: 1em 0em 0em 0em;
+  align-items: center;
+
+}
+
+ @media screen and (max-width: 767px) {
+  .tag{
+    font-size: 15px;
+  }
+ }
