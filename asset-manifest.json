@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kasa/static/css/main.4e62dd0e.css",
-    "main.js": "/kasa/static/js/main.80c8188d.js",
+    "main.css": "/kasa/static/css/main.3c65e664.css",
+    "main.js": "/kasa/static/js/main.9cb79e04.js",
     "static/media/photo-de-montagne.png": "/kasa/static/media/photo-de-montagne.5e1140e09f5ebfb28e70.png",
     "static/media/photo-de-failse.png": "/kasa/static/media/photo-de-failse.7d8b5a40e8d1c2b2325e.png",
     "static/media/Montserrat-Bold.ttf": "/kasa/static/media/Montserrat-Bold.733964aa5261b1af4852.ttf",
     "static/media/Montserrat-Regular.ttf": "/kasa/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
     "index.html": "/kasa/index.html",
-    "main.4e62dd0e.css.map": "/kasa/static/css/main.4e62dd0e.css.map",
-    "main.80c8188d.js.map": "/kasa/static/js/main.80c8188d.js.map"
+    "main.3c65e664.css.map": "/kasa/static/css/main.3c65e664.css.map",
+    "main.9cb79e04.js.map": "/kasa/static/js/main.9cb79e04.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e62dd0e.css",
-    "static/js/main.80c8188d.js"
+    "static/css/main.3c65e664.css",
+    "static/js/main.9cb79e04.js"
   ]
 }
